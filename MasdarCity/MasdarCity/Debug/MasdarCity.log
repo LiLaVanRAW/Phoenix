@@ -1,0 +1,10 @@
+﻿Der Buildvorgang wurde am 16.10.2014 19:31:18 gestartet.
+     1>Projekt "C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\MasdarCity\MasdarCity.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\Debug\MasdarCity.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\Debug\MasdarCity.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\Debug\MasdarCity.lib" /MACHINE:X86 Debug\Quelle.obj
+         MasdarCity.vcxproj -> C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\Debug\MasdarCity.exe
+     1>Die Erstellung des Projekts "C:\Users\Li La\Documents\GitHub\Phoenix\MasdarCity\MasdarCity\MasdarCity.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.30
