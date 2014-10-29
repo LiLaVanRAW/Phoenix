@@ -11,8 +11,8 @@ char routenArray[] = {'g','r','l','g','l','l','g','l','r','g','r'};
 int max = 11;
 int i = 0;
 
-unsigned long delay = 0;
-const int offset = 400;
+//unsigned long delay = 0;
+//const int offset = 400;
 
 char checkStartPoint()
 {
@@ -53,7 +53,7 @@ void checkStart()
 void navigate()
 {
     //wenn einer der beiden mittleren Optokoppler auf schwarz - Kreuzung (Hoechste Prioritaet)
-    if((OPTOKOPPLER_MITTE_LINKS > 18 || OPTOKOPPLER_MITTE_RECHTS > 18) && delay <= akt_time())
+    if((OPTOKOPPLER_MITTE_LINKS > 18 || OPTOKOPPLER_MITTE_RECHTS > 18)/* && delay <= akt_time()*/)
     {
 		led(0,1);
         crossroads();
@@ -151,12 +151,30 @@ void spin_around()
 
 void crossroads()
 {
-    //biegeRechtsAb ist nur Beispiel - ansonsten Fkt. aufrufen abarbeiten() -> Array verarbeiten
-    biegeLinksAb();
+    for(; i < max; i++)
+	{
+		switch(routenArray[i])
+		{
+		case 'l':	biegeLinksAb();
+					break;
+		case 'r':	biegeRechtsAb();
+					break;
+		case 'g':	
+					break;
+		}
+	break;
+	}
+	if(i == max)
+	{
+		stop();
+	}
+	
+	//biegeRechtsAb ist nur Beispiel - ansonsten Fkt. aufrufen abarbeiten() -> Array verarbeiten
+    //biegeLinksAb();
 	sleep(1000);			//Damit hintere Opto von schwarz runterkommt
 	while(OPTOKOPPLER_VORNE < 70);			//solange weiss ->
 	
-	delay = akt_time() + offset;
+	//delay = akt_time() + offset;
 }
 
 
