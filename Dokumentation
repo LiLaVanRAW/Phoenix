@@ -6,24 +6,65 @@
  
  
  
- /* Titelseite */
+ /********** Titelseite **********/
  /* oben links:
   * Fachhochschule Brandenburg
   * University of Applied Science
   * Fachbereich Informatik und Medien
+  *
+  * AMS-Projekt "Masdar City 2014/2015"
+  * Prof Dr. Heinsohn
+  * Dipl. Inf. Boersch
   */
   
+ /* oben rechts:
+  * Logo
+  */
+   
+ /* Mitte oben
+  * Vorname Name
+  * Matrikelnummer
+  * Vorname Name
+  * Matrikelnummer
+  */
+   
+ /* Mitte
+  * AMS-Projekt: "Phoenix"
+  * Abgabedatum: ****                               //TODO
+  */
+  
+/********** Titelseite **********/
   
   
-/* Agenda */
+/********** Agenda **********/
 /* Einleitung:
  * Aufgabenstellung
  * Vorbereitung
  */
-/* Aufbau des Roboters
+ 
+/* Aufbau des Roboters:
  * Antrieb
  */
 
+/* Programme und Funktionen
+ *
+ */
+
+/* Suche und Wegfindung
+ *
+ */
+
+/* Problemfelder
+ *
+ */
+
+/* Fazit
+ *
+ */
+ 
+/* Anhang
+ *
+ */
   
   
   
