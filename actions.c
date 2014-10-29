@@ -55,8 +55,8 @@ void navigate()
     //wenn einer der beiden mittleren Optokoppler auf schwarz - Kreuzung (Hoechste Prioritaet)
     if((OPTOKOPPLER_MITTE_LINKS > 18 || OPTOKOPPLER_MITTE_RECHTS > 18)/* && delay <= akt_time()*/)
     {
-		led(0,1);
-        crossroads();
+	led(0,1);
+        crossroads(routenArray[i]);
     }
     //Linker mittlerer Optokoppler schwarz UND rechter mittlerer Optokoppler weiß
 	else if(OPTOKOPPLER_VORNE_LINKS > 150)
@@ -149,21 +149,18 @@ void spin_around()
     motor_pwm(MOTOR_RECHTS, SPEED);
 }
 
-void crossroads()
-{
-    for(; i < max; i++)
+void crossroads(char knoten)
+{		
+	switch(routenArray[i])
 	{
-		switch(routenArray[i])
-		{
-		case 'l':	biegeLinksAb();
-					break;
-		case 'r':	biegeRechtsAb();
-					break;
-		case 'g':	
-					break;
-		}
-	break;
+	case 'l':	biegeLinksAb();
+				break;
+	case 'r':	biegeRechtsAb();
+			break;
+	case 'g':	
+			break;
 	}
+	i++;
 	if(i == max)
 	{
 		stop();
