@@ -76,13 +76,13 @@
  * Erinnerung an mich selbst: Hardwareproblem bei analog 5
  */ 
   
-  /* Sternzeit: 30-10-14
+/* Sternzeit: 30-10-14
 * liebes logbuch und schon sehen wir uns wieder. Diesmal hatten wir Probleme bei der Abarbeitung an den 
-Kreuzungspunkten. Unser Roboter hatte ein merkwuerdiges Verhalten an den Tag gelegt, welches darauf zurueckzufuehren 
-war, dass eine Kreuzung mehrfach erkannt wurde. Das Problem wurde dadurch behoben, dass bei der Ueberpruefung an den
-Kreuzungspunkten eine Variable hinsichtlich der Differenz zur Systemstartzeit erfolgte. Um eine Differenzierung zu 
-erwirken wurde ein entsprechender Offset eingefuegt, so dass unser Roboter genug Zeit hatte von der besuchten Kreuzung
-runterzufahren. Dieser Offset musste des Weiteren groesser sein als der Sleeptimer, der fuer die Drehung an der 
-Kreuzung verantwortlich ist.
+* Kreuzungspunkten. Unser Roboter hatte ein merkwuerdiges Verhalten an den Tag gelegt, welches darauf zurueckzufuehren 
+* war, dass eine Kreuzung mehrfach erkannt wurde. Das Problem wurde dadurch behoben, dass bei der Ueberpruefung an den
+* Kreuzungspunkten eine Variable hinsichtlich der Differenz zur Systemstartzeit erfolgte. Um eine Differenzierung zu 
+* erwirken wurde ein entsprechender Offset eingefuegt, so dass unser Roboter genug Zeit hatte von der besuchten Kreuzung
+* runterzufahren. Dieser Offset musste des Weiteren groesser sein als der Sleeptimer, der fuer die Drehung an der 
+* Kreuzung verantwortlich ist.
 */ 
   
