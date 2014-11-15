@@ -88,4 +88,12 @@
 * Desweiteren mussten wir einige Modifizierungen angesichts unserer Optokoppler vornehmen.
 * --> Gemeinhin auch als Schnauzbart bezeichnet.
 */
+
+/* Sternzeit: 14-11-14
+ * liedes Logbuch, es ist einige Tage her, seit meinem letzten Eintrag
+ * wiedererwartend sind Probleme mit dem Code aufgetreten, so dass wir die Anordnung der einzelnen Module etwas abändern mussten
+ * diese kleine Modifikation hat natürlich Erfolge nach sich gezogen!
+ * neue Module wie "convertPathArray", "fillPathArray", und einige mehr sind in Arbeit
+ * wir sind zuversichtlich alle Aufgabe bis T-0-0 erfolgreich zu meistern
+ */
   
